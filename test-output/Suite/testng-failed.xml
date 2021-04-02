@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testng.tasks.TestNgTaskForClarification">
+        <methods>
+          <include name="crossBrowserExecution" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng.tasks.TestNgTaskForClarification -->
+    </classes>
+  </test> <!-- edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->
